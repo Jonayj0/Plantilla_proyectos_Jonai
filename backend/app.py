@@ -7,7 +7,7 @@ db = SQLAlchemy(app)
 
 @app.route('/')
 def home():
-    return "Hello, Flask!"
+    return "Hello, Flask!, Welcome to Jonai Template!"
 
 if __name__ == '__main__':
     app.run(debug=True)
